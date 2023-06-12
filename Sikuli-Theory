@@ -1,0 +1,20 @@
+How to Upload Files
+How to Download Files
+
+To automate or interact with window based application, we need 3rd party applications. The most popular tools are 
+1. AutoIT
+2. Sikuli  
+(——AutoIT support for windows only——)
+
+For AutoIT we have both advantage and disadvantage
+Configuration is complex ( we need to install and setup)
+
+For Sikuli we just need to add the dependency only and its very easy and simple to use when compared to AutoIT.
+
+How to Upload Files using WebDriver
+1.Download Tikuli Jar File.
+2.Add Jar file to project build path.
+3.write selenium scripts
+
+
+https://launchpad.net/sikuli/sikuli/1.1.2/+download/sikulixsetup-1.1.2.jar
