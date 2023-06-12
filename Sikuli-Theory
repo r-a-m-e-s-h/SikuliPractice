@@ -18,3 +18,24 @@ How to Upload Files using WebDriver
 
 
 https://launchpad.net/sikuli/sikuli/1.1.2/+download/sikulixsetup-1.1.2.jar
+
+Notes : 
+Screen is a base class provided by Sikuli. It allows us to access all the methods provided by Sikuli.
+
+A pattern is used, to associate an image file with additional attributes used in find operations and when acting on a match object.
+
+Reference from : softwaretestingmaterial
+https://www.softwaretestingmaterial.com/sikuli-guide-integrate-sikuli-with-selenium/
+
+
+Sikuli Methods:
+Here to showcase some examples, I am going to use the same object of Screen class which I have taken in the above scripts.
+
+1. Click on an element: screen.click(“path of your image”);
+2. Double click on an element: screen.doubleClick(“path of your image”);
+3. Right click on an element: screen.rightClick(“path of your image”);
+4. Type on a text box: screen.type(“path of your image”, “Your text message”);
+5. To find an element: screen.find(“path of your image”);
+6. Element identification whether it exists or not: screen.exists(“path of your image”);
+7. Drag and drop: screen.dragDrop(“path of your Source image”,”path of your Target image”);
+To learn more on Sikuli, please refer this offical documentation.  I am concluding here on “Sikuli Tutorial for begineers”
